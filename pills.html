@@ -1,0 +1,17 @@
+<!-- pills.html -->
+<div class="pills-container">
+    <!-- Здесь JavaScript динамически добавляет кнопки -->
+</div>
+<script>
+function togglePill(el, value) {
+    // Инвертируем состояние кнопки
+    const isSelected = el.classList.contains("selected");
+    if (isSelected) {
+        el.classList.remove("selected");
+        Streamlit.setComponentValue(value, false);
+    } else {
+        el.classList.add("selected");
+        Streamlit.setComponentValue(value, true);
+    }
+}
+</script>
