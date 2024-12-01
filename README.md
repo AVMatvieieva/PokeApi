@@ -3,18 +3,17 @@
 ## Project Description
 This project is an application that uses the **PokéAPI** to fetch information about Pokémon. The program allows users to get detailed data about any Pokémon, including:
 
-- **Pokémon Data**: name, number, types, abilities, and other characteristics.
+- **Pokémon Data**: name, abilities, and other characteristics.
 - **Stats Graph**: a visualization of the Pokémon's statistics (health, attack, defense, and other parameters).
 - **Pokémon Image**: an image of the Pokémon fetched from the API.
-- **Storytelling**: a narrative about the Pokémon with interesting facts and details.
 
 Data is transferred and displayed using **Streamlit** to create an intuitive interface. Users can enter the name or ID of a Pokémon and get detailed information in a user-friendly format.
 
 ## Features
-- **Search Pokémon by Name or ID** — easily find any Pokémon by entering its name or number.
+- **Search Pokémon by Name** — easily find any Pokemon by entering its name or selecting a name from the drop-down list.
 - **Graphical Representation of Stats** — shows the Pokémon's key attributes in a chart.
 - **Image Visualization** — displays the Pokémon's image fetched from the official API.
-- **Storytelling** — interactive description of the Pokémon with facts and its characteristics.
+- **Specification** — hovering over your Pokemon's property will show you a full description of that property.
 - **PokéAPI Integration** — fetches real-time data about Pokémon using the open API.
 
 ## Tech Stack
